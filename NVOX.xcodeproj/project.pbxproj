@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B26820C1A99321D008E224E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B26820B1A99321D008E224E /* AppDelegate.m */; };
+		4B26820E1A99321D008E224E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B26820D1A99321D008E224E /* main.m */; };
+		4B2682101A99321D008E224E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B26820F1A99321D008E224E /* Images.xcassets */; };
+		4B2682131A99321D008E224E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2682111A99321D008E224E /* MainMenu.xib */; };
+		4B26821F1A99321D008E224E /* NVOXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B26821E1A99321D008E224E /* NVOXTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B2682191A99321D008E224E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B2681FD1A99321D008E224E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B2682041A99321D008E224E;
+			remoteInfo = NVOX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B2682051A99321D008E224E /* NVOX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NVOX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2682091A99321D008E224E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B26820A1A99321D008E224E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B26820B1A99321D008E224E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B26820D1A99321D008E224E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B26820F1A99321D008E224E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B2682121A99321D008E224E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4B2682181A99321D008E224E /* NVOXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NVOXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B26821D1A99321D008E224E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B26821E1A99321D008E224E /* NVOXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVOXTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B2682021A99321D008E224E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B2682151A99321D008E224E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B2681FC1A99321D008E224E = {
+			isa = PBXGroup;
+			children = (
+				4B2682071A99321D008E224E /* NVOX */,
+				4B26821B1A99321D008E224E /* NVOXTests */,
+				4B2682061A99321D008E224E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B2682061A99321D008E224E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B2682051A99321D008E224E /* NVOX.app */,
+				4B2682181A99321D008E224E /* NVOXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B2682071A99321D008E224E /* NVOX */ = {
+			isa = PBXGroup;
+			children = (
+				4B26820A1A99321D008E224E /* AppDelegate.h */,
+				4B26820B1A99321D008E224E /* AppDelegate.m */,
+				4B26820F1A99321D008E224E /* Images.xcassets */,
+				4B2682111A99321D008E224E /* MainMenu.xib */,
+				4B2682081A99321D008E224E /* Supporting Files */,
+			);
+			path = NVOX;
+			sourceTree = "<group>";
+		};
+		4B2682081A99321D008E224E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B2682091A99321D008E224E /* Info.plist */,
+				4B26820D1A99321D008E224E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B26821B1A99321D008E224E /* NVOXTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B26821E1A99321D008E224E /* NVOXTests.m */,
+				4B26821C1A99321D008E224E /* Supporting Files */,
+			);
+			path = NVOXTests;
+			sourceTree = "<group>";
+		};
+		4B26821C1A99321D008E224E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B26821D1A99321D008E224E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B2682041A99321D008E224E /* NVOX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B2682221A99321D008E224E /* Build configuration list for PBXNativeTarget "NVOX" */;
+			buildPhases = (
+				4B2682011A99321D008E224E /* Sources */,
+				4B2682021A99321D008E224E /* Frameworks */,
+				4B2682031A99321D008E224E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVOX;
+			productName = NVOX;
+			productReference = 4B2682051A99321D008E224E /* NVOX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B2682171A99321D008E224E /* NVOXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B2682251A99321D008E224E /* Build configuration list for PBXNativeTarget "NVOXTests" */;
+			buildPhases = (
+				4B2682141A99321D008E224E /* Sources */,
+				4B2682151A99321D008E224E /* Frameworks */,
+				4B2682161A99321D008E224E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B26821A1A99321D008E224E /* PBXTargetDependency */,
+			);
+			name = NVOXTests;
+			productName = NVOXTests;
+			productReference = 4B2682181A99321D008E224E /* NVOXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B2681FD1A99321D008E224E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tae Won Ha";
+				TargetAttributes = {
+					4B2682041A99321D008E224E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4B2682171A99321D008E224E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4B2682041A99321D008E224E;
+					};
+				};
+			};
+			buildConfigurationList = 4B2682001A99321D008E224E /* Build configuration list for PBXProject "NVOX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B2681FC1A99321D008E224E;
+			productRefGroup = 4B2682061A99321D008E224E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B2682041A99321D008E224E /* NVOX */,
+				4B2682171A99321D008E224E /* NVOXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B2682031A99321D008E224E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2682101A99321D008E224E /* Images.xcassets in Resources */,
+				4B2682131A99321D008E224E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B2682161A99321D008E224E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B2682011A99321D008E224E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B26820E1A99321D008E224E /* main.m in Sources */,
+				4B26820C1A99321D008E224E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B2682141A99321D008E224E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B26821F1A99321D008E224E /* NVOXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B26821A1A99321D008E224E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B2682041A99321D008E224E /* NVOX */;
+			targetProxy = 4B2682191A99321D008E224E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B2682111A99321D008E224E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B2682121A99321D008E224E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B2682201A99321D008E224E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4B2682211A99321D008E224E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4B2682231A99321D008E224E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NVOX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B2682241A99321D008E224E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NVOX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B2682261A99321D008E224E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NVOXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NVOX.app/Contents/MacOS/NVOX";
+			};
+			name = Debug;
+		};
+		4B2682271A99321D008E224E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NVOXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NVOX.app/Contents/MacOS/NVOX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B2682001A99321D008E224E /* Build configuration list for PBXProject "NVOX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2682201A99321D008E224E /* Debug */,
+				4B2682211A99321D008E224E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B2682221A99321D008E224E /* Build configuration list for PBXNativeTarget "NVOX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2682231A99321D008E224E /* Debug */,
+				4B2682241A99321D008E224E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B2682251A99321D008E224E /* Build configuration list for PBXNativeTarget "NVOXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2682261A99321D008E224E /* Debug */,
+				4B2682271A99321D008E224E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B2681FD1A99321D008E224E /* Project object */;
+}
