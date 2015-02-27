@@ -11,6 +11,7 @@
 
 #import <msgpack.h>
 #import "MessagePackParser.h"
+#import "NVBuffer.h"
 
 
 @interface NVOXTests : XCTestCase
@@ -21,9 +22,11 @@
 
 - (void)testSth {
   NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"vim_get_buffers.example" ofType:@"msgpack"];
-  NSData *data = [NSData dataWithContentsOfFile:path];
-
-  id o = [MessagePackParser parseData:data];
+  id o = [MessagePackParser parseData:[NSData dataWithContentsOfFile:path] withExtTypeHandler:
+      ^id(int8_t type, char const *data, uint32_t length) {
+        return [[NVBuffer alloc] initWithRawIdentifier:[NSData dataWithBytes:data length:length]];
+      }
+  ];
   NSLog(@"%@", o);
 }
 
