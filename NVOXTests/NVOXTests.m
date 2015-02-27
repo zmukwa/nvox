@@ -18,7 +18,9 @@
 
 @implementation NVOXTests
 
-- (void)testExample {
+- (void)testGetBuffersResponse {
+  // [type=1, msgid, error, result]
+
   NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"vim_get_buffers.example" ofType:@"msgpack"];
   NSData *data = [NSData dataWithContentsOfFile:path];
 
@@ -28,17 +30,17 @@
   msgpack_object deserialized;
   msgpack_unpack((char const *) data.bytes, data.length, NULL, &mempool, &deserialized);
 
-  printf("[");
+  msgpack_object *array = deserialized.via.array.ptr;
 
-  msgpack_object *p = deserialized.via.array.ptr;
-  uint32_t count = deserialized.via.array.size;
-  for (uint32_t i = 0; i < count; ++i) {
-    msgpack_object element = p[i];
-    msgpack_object_print(stdout, element);
-    printf(", ");
+  NSLog(@"msgid: %@", @(array[1].via.u64));
+  msgpack_object result = array[3];
+  msgpack_object *buffers = result.via.array.ptr;
+  uint32_t countBuffers = result.via.array.size;
+  for (uint32_t i = 0; i < countBuffers; ++i) {
+    msgpack_object buffer = buffers[i];
+    NSData *bufferData = [NSData dataWithBytes:buffer.via.ext.ptr length:buffer.via.ext.size];
+    NSLog(@"buffer %d: %@", i, bufferData);
   }
-
-  printf("]");
 
   msgpack_zone_destroy(&mempool);
 }
