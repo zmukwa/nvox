@@ -9,32 +9,38 @@
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
 
+#import <msgpack.h>
+
+
 @interface NVOXTests : XCTestCase
 
 @end
 
 @implementation NVOXTests
 
-- (void)setUp {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
 - (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
-}
+  NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"vim_get_buffers.example" ofType:@"msgpack"];
+  NSData *data = [NSData dataWithContentsOfFile:path];
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+  msgpack_zone mempool;
+  msgpack_zone_init(&mempool, 2048);
+
+  msgpack_object deserialized;
+  msgpack_unpack((char const *) data.bytes, data.length, NULL, &mempool, &deserialized);
+
+  printf("[");
+
+  msgpack_object *p = deserialized.via.array.ptr;
+  uint32_t count = deserialized.via.array.size;
+  for (uint32_t i = 0; i < count; ++i) {
+    msgpack_object element = p[i];
+    msgpack_object_print(stdout, element);
+    printf(", ");
+  }
+
+  printf("]");
+
+  msgpack_zone_destroy(&mempool);
 }
 
 @end
