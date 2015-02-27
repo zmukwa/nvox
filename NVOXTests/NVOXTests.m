@@ -10,6 +10,7 @@
 #import <XCTest/XCTest.h>
 
 #import <msgpack.h>
+#import "MessagePackParser.h"
 
 
 @interface NVOXTests : XCTestCase
@@ -18,9 +19,16 @@
 
 @implementation NVOXTests
 
+- (void)testSth {
+  NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"vim_get_buffers.example" ofType:@"msgpack"];
+  NSData *data = [NSData dataWithContentsOfFile:path];
+
+  id o = [MessagePackParser parseData:data];
+  NSLog(@"%@", o);
+}
+
 - (void)testGetBuffersResponse {
   // [type=1, msgid, error, result]
-
   NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"vim_get_buffers.example" ofType:@"msgpack"];
   NSData *data = [NSData dataWithContentsOfFile:path];
 

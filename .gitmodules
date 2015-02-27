@@ -4,3 +4,6 @@
 [submodule "msgpack-c"]
 	path = msgpack-c
 	url = https://github.com/msgpack/msgpack-c.git
+[submodule "msgpack-objectivec"]
+	path = msgpack-objectivec
+	url = https://github.com/qvacua/msgpack-objectivec.git
