@@ -7,28 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1929B244846CD5F71552B656 /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B22D89B023AE211C87BB /* MessagePackParser+Streaming.m */; };
-		1929B30269EDAFAA124ADA3A /* MessagePackExtType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B71CD0C79BE6135D774A /* MessagePackExtType.m */; };
-		1929B3A37E7542DBAEE67E77 /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B32AF4BC56082F0948C1 /* MessagePackParser.m */; };
-		1929B8097070AB688669693A /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B895EE77865D67303B3A /* MessagePackPacker.m */; };
-		1929BA3F4D23306D7BDC3D09 /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B52C0D8B5B13944F5028 /* NSDictionary+MessagePack.m */; };
-		1929BA5712B87E39BFCCB031 /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B22D89B023AE211C87BB /* MessagePackParser+Streaming.m */; };
+		1929B0C82E11A5190AD8D2AE /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929B0038B2DBF93FACD6C7F /* unpack.c */; };
+		1929B0D44238ADC31A4F6F08 /* MessagePackExtType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B6B44CC0DA3015A81666 /* MessagePackExtType.m */; };
+		1929B1271E3467ADF6123E03 /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929B88835A1EA87B0DFB5E3 /* objectc.c */; };
+		1929B2BB369A45F36D77ECC5 /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929B0038B2DBF93FACD6C7F /* unpack.c */; };
+		1929B3426A2957619C7B818D /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929BD7CBC386519264507D9 /* MessagePackParser+Streaming.m */; };
+		1929B4DD39B28A969D596019 /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B8A12A97BF6E14AE270E /* NSData+MessagePack.m */; };
+		1929B5A481441AB477010C56 /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B2A659C2F871E1612AFC /* MessagePackPacker.m */; };
+		1929B71A0AC6FFEDEF55E42D /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929B88835A1EA87B0DFB5E3 /* objectc.c */; };
+		1929B7C24149EFEC07D8E889 /* zone.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929B5FFF5D8D93E3B886F93 /* zone.c */; };
+		1929B828061FBDDD73D3AA37 /* vrefbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929BC108326DA9BDA97D1E4 /* vrefbuffer.c */; };
+		1929B8565755F5590774091E /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929BE353357767685B15A69 /* version.c */; };
+		1929B949E4A541855FC83D21 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929BE353357767685B15A69 /* version.c */; };
 		1929BA5D65772F13CC0A2DA5 /* vim_get_buffers.example.msgpack in Resources */ = {isa = PBXBuildFile; fileRef = 1929B0FB2EB67E4E70972061 /* vim_get_buffers.example.msgpack */; };
-		1929BA8AB114B9CA2BDB6904 /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B895EE77865D67303B3A /* MessagePackPacker.m */; };
-		1929BA8C495E9911F8096BAF /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B5AB83C9F4C545111770 /* NSArray+MessagePack.m */; };
-		1929BAC7519DCD0706C14321 /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B3C0EF258E0D44535A65 /* NSData+MessagePack.m */; };
-		1929BBD0225CAFCA026BA342 /* MessagePackExtType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B71CD0C79BE6135D774A /* MessagePackExtType.m */; };
-		1929BC408A398D678B098BD0 /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B32AF4BC56082F0948C1 /* MessagePackParser.m */; };
-		1929BD22F6F1464E5DD6A267 /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B3C0EF258E0D44535A65 /* NSData+MessagePack.m */; };
-		1929BD259EAAC4506055B138 /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B5AB83C9F4C545111770 /* NSArray+MessagePack.m */; };
-		1929BD554049F0EAAF37B917 /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B52C0D8B5B13944F5028 /* NSDictionary+MessagePack.m */; };
+		1929BA844CFFC1C820816220 /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B08BA2CCB64C2C764788 /* NSArray+MessagePack.m */; };
+		1929BB3B865DC7968340A9BF /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B08BA2CCB64C2C764788 /* NSArray+MessagePack.m */; };
+		1929BBAF5BDF03ACEBB0456A /* vrefbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929BC108326DA9BDA97D1E4 /* vrefbuffer.c */; };
+		1929BBC2F897C845AC0DDB21 /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B8A12A97BF6E14AE270E /* NSData+MessagePack.m */; };
+		1929BBE660C21BF51F54686E /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929BD7CBC386519264507D9 /* MessagePackParser+Streaming.m */; };
+		1929BCC48E4C1979C4BDEDDC /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B2A659C2F871E1612AFC /* MessagePackPacker.m */; };
+		1929BDB7046EAEF7625C7257 /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929BE9F32589CB49210592E /* MessagePackParser.m */; };
+		1929BE429130E93BDAD66281 /* MessagePackExtType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B6B44CC0DA3015A81666 /* MessagePackExtType.m */; };
+		1929BEDED28C490EE83110D9 /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B4C1562844E3F66DD9E8 /* NSDictionary+MessagePack.m */; };
+		1929BF03388541456DB52E76 /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B4C1562844E3F66DD9E8 /* NSDictionary+MessagePack.m */; };
+		1929BF10154DB16C882C5680 /* zone.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929B5FFF5D8D93E3B886F93 /* zone.c */; };
+		1929BF77197AF7075BAC392E /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929BE9F32589CB49210592E /* MessagePackParser.m */; };
 		4B26820C1A99321D008E224E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B26820B1A99321D008E224E /* AppDelegate.m */; };
 		4B26820E1A99321D008E224E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B26820D1A99321D008E224E /* main.m */; };
 		4B2682101A99321D008E224E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B26820F1A99321D008E224E /* Images.xcassets */; };
 		4B2682131A99321D008E224E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2682111A99321D008E224E /* MainMenu.xib */; };
 		4B26821F1A99321D008E224E /* NVOXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B26821E1A99321D008E224E /* NVOXTests.m */; };
-		4B88EAC01AA0CBD100E316BC /* libmsgpack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B88EABF1AA0CBD100E316BC /* libmsgpack.a */; };
-		4B88EAC11AA0CBD100E316BC /* libmsgpack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B88EABF1AA0CBD100E316BC /* libmsgpack.a */; };
 		713DC1B97651FE5B4835CF30 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE35C8E4A1798762BCD004B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,22 +51,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1929B0038B2DBF93FACD6C7F /* unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unpack.c; path = "msgpack-c/src/unpack.c"; sourceTree = SOURCE_ROOT; };
+		1929B08BA2CCB64C2C764788 /* NSArray+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MessagePack.m"; path = "msgpack-objectivec/NSArray+MessagePack.m"; sourceTree = SOURCE_ROOT; };
 		1929B0FB2EB67E4E70972061 /* vim_get_buffers.example.msgpack */ = {isa = PBXFileReference; lastKnownFileType = file.msgpack; name = vim_get_buffers.example.msgpack; path = Resources/vim_get_buffers.example.msgpack; sourceTree = "<group>"; };
-		1929B22D89B023AE211C87BB /* MessagePackParser+Streaming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MessagePackParser+Streaming.m"; path = "msgpack-objectivec/MessagePackParser+Streaming.m"; sourceTree = SOURCE_ROOT; };
-		1929B2ACC734436D9CE25FB7 /* MessagePackParser+Streaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MessagePackParser+Streaming.h"; path = "msgpack-objectivec/MessagePackParser+Streaming.h"; sourceTree = SOURCE_ROOT; };
-		1929B2D8D225C860B36170C8 /* MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePack.h; path = "msgpack-objectivec/MessagePack.h"; sourceTree = SOURCE_ROOT; };
-		1929B3137E625A638DA36119 /* MessagePackPacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePackPacker.h; path = "msgpack-objectivec/MessagePackPacker.h"; sourceTree = SOURCE_ROOT; };
-		1929B32AF4BC56082F0948C1 /* MessagePackParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagePackParser.m; path = "msgpack-objectivec/MessagePackParser.m"; sourceTree = SOURCE_ROOT; };
-		1929B3C0EF258E0D44535A65 /* NSData+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+MessagePack.m"; path = "msgpack-objectivec/NSData+MessagePack.m"; sourceTree = SOURCE_ROOT; };
-		1929B3CFEE005F8F911AF53E /* NSArray+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MessagePack.h"; path = "msgpack-objectivec/NSArray+MessagePack.h"; sourceTree = SOURCE_ROOT; };
-		1929B52C0D8B5B13944F5028 /* NSDictionary+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MessagePack.m"; path = "msgpack-objectivec/NSDictionary+MessagePack.m"; sourceTree = SOURCE_ROOT; };
-		1929B5AB83C9F4C545111770 /* NSArray+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MessagePack.m"; path = "msgpack-objectivec/NSArray+MessagePack.m"; sourceTree = SOURCE_ROOT; };
-		1929B5CED0AE36F6186ECF2D /* NSDictionary+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MessagePack.h"; path = "msgpack-objectivec/NSDictionary+MessagePack.h"; sourceTree = SOURCE_ROOT; };
-		1929B71CD0C79BE6135D774A /* MessagePackExtType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagePackExtType.m; path = "msgpack-objectivec/MessagePackExtType.m"; sourceTree = SOURCE_ROOT; };
-		1929B895EE77865D67303B3A /* MessagePackPacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagePackPacker.m; path = "msgpack-objectivec/MessagePackPacker.m"; sourceTree = SOURCE_ROOT; };
-		1929B8D0C2FD77AF3DC852BB /* MessagePackParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePackParser.h; path = "msgpack-objectivec/MessagePackParser.h"; sourceTree = SOURCE_ROOT; };
-		1929BB958F93C6B9D95A9ED9 /* NSData+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+MessagePack.h"; path = "msgpack-objectivec/NSData+MessagePack.h"; sourceTree = SOURCE_ROOT; };
-		1929BFD7B7A902536516E766 /* MessagePackExtType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePackExtType.h; path = "msgpack-objectivec/MessagePackExtType.h"; sourceTree = SOURCE_ROOT; };
+		1929B15FCFF1229A98B9445D /* MessagePackParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePackParser.h; path = "msgpack-objectivec/MessagePackParser.h"; sourceTree = SOURCE_ROOT; };
+		1929B2A659C2F871E1612AFC /* MessagePackPacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagePackPacker.m; path = "msgpack-objectivec/MessagePackPacker.m"; sourceTree = SOURCE_ROOT; };
+		1929B48DED6C0109A0684DD0 /* MessagePackExtType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePackExtType.h; path = "msgpack-objectivec/MessagePackExtType.h"; sourceTree = SOURCE_ROOT; };
+		1929B4C1562844E3F66DD9E8 /* NSDictionary+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MessagePack.m"; path = "msgpack-objectivec/NSDictionary+MessagePack.m"; sourceTree = SOURCE_ROOT; };
+		1929B5FFF5D8D93E3B886F93 /* zone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zone.c; path = "msgpack-c/src/zone.c"; sourceTree = SOURCE_ROOT; };
+		1929B6B44CC0DA3015A81666 /* MessagePackExtType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagePackExtType.m; path = "msgpack-objectivec/MessagePackExtType.m"; sourceTree = SOURCE_ROOT; };
+		1929B733F28E21BC718EFE46 /* NSDictionary+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MessagePack.h"; path = "msgpack-objectivec/NSDictionary+MessagePack.h"; sourceTree = SOURCE_ROOT; };
+		1929B8090E67E1D6BB26D99E /* NSData+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+MessagePack.h"; path = "msgpack-objectivec/NSData+MessagePack.h"; sourceTree = SOURCE_ROOT; };
+		1929B8327FF98447B9DB6358 /* NSArray+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MessagePack.h"; path = "msgpack-objectivec/NSArray+MessagePack.h"; sourceTree = SOURCE_ROOT; };
+		1929B88835A1EA87B0DFB5E3 /* objectc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = objectc.c; path = "msgpack-c/src/objectc.c"; sourceTree = SOURCE_ROOT; };
+		1929B8A12A97BF6E14AE270E /* NSData+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+MessagePack.m"; path = "msgpack-objectivec/NSData+MessagePack.m"; sourceTree = SOURCE_ROOT; };
+		1929BA47D6792C7F4F8BA052 /* MessagePackPacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePackPacker.h; path = "msgpack-objectivec/MessagePackPacker.h"; sourceTree = SOURCE_ROOT; };
+		1929BBB8BC49F78C2AD8880E /* MessagePackParser+Streaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MessagePackParser+Streaming.h"; path = "msgpack-objectivec/MessagePackParser+Streaming.h"; sourceTree = SOURCE_ROOT; };
+		1929BC108326DA9BDA97D1E4 /* vrefbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vrefbuffer.c; path = "msgpack-c/src/vrefbuffer.c"; sourceTree = SOURCE_ROOT; };
+		1929BD7CBC386519264507D9 /* MessagePackParser+Streaming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MessagePackParser+Streaming.m"; path = "msgpack-objectivec/MessagePackParser+Streaming.m"; sourceTree = SOURCE_ROOT; };
+		1929BD8D854BB8256C3599FE /* MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePack.h; path = "msgpack-objectivec/MessagePack.h"; sourceTree = SOURCE_ROOT; };
+		1929BE353357767685B15A69 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = version.c; path = "msgpack-c/src/version.c"; sourceTree = SOURCE_ROOT; };
+		1929BE9F32589CB49210592E /* MessagePackParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagePackParser.m; path = "msgpack-objectivec/MessagePackParser.m"; sourceTree = SOURCE_ROOT; };
 		4B2682051A99321D008E224E /* NVOX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NVOX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2682091A99321D008E224E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B26820A1A99321D008E224E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,7 +82,6 @@
 		4B2682181A99321D008E224E /* NVOXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NVOXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B26821D1A99321D008E224E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B26821E1A99321D008E224E /* NVOXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVOXTests.m; sourceTree = "<group>"; };
-		4B88EABF1AA0CBD100E316BC /* libmsgpack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmsgpack.a; path = "msgpack-c/libmsgpack.a"; sourceTree = "<group>"; };
 		ACE35C8E4A1798762BCD004B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EF4E9CC7895B452EF93F3B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BC88748EA5AA61E3FD63A74E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,7 +92,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B88EAC01AA0CBD100E316BC /* libmsgpack.a in Frameworks */,
 				713DC1B97651FE5B4835CF30 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,7 +100,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B88EAC11AA0CBD100E316BC /* libmsgpack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,26 +114,38 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		1929B8494CBED6F0208CBBD7 /* msgpack-objc */ = {
+		1929B9D5ADA61B780755DDEA /* msgpack-objc */ = {
 			isa = PBXGroup;
 			children = (
-				1929B22D89B023AE211C87BB /* MessagePackParser+Streaming.m */,
-				1929B52C0D8B5B13944F5028 /* NSDictionary+MessagePack.m */,
-				1929B3C0EF258E0D44535A65 /* NSData+MessagePack.m */,
-				1929B895EE77865D67303B3A /* MessagePackPacker.m */,
-				1929B3137E625A638DA36119 /* MessagePackPacker.h */,
-				1929B32AF4BC56082F0948C1 /* MessagePackParser.m */,
-				1929B5CED0AE36F6186ECF2D /* NSDictionary+MessagePack.h */,
-				1929B3CFEE005F8F911AF53E /* NSArray+MessagePack.h */,
-				1929B8D0C2FD77AF3DC852BB /* MessagePackParser.h */,
-				1929BB958F93C6B9D95A9ED9 /* NSData+MessagePack.h */,
-				1929B5AB83C9F4C545111770 /* NSArray+MessagePack.m */,
-				1929B2ACC734436D9CE25FB7 /* MessagePackParser+Streaming.h */,
-				1929B2D8D225C860B36170C8 /* MessagePack.h */,
-				1929B71CD0C79BE6135D774A /* MessagePackExtType.m */,
-				1929BFD7B7A902536516E766 /* MessagePackExtType.h */,
+				1929BD8D854BB8256C3599FE /* MessagePack.h */,
+				1929B48DED6C0109A0684DD0 /* MessagePackExtType.h */,
+				1929B6B44CC0DA3015A81666 /* MessagePackExtType.m */,
+				1929BA47D6792C7F4F8BA052 /* MessagePackPacker.h */,
+				1929B2A659C2F871E1612AFC /* MessagePackPacker.m */,
+				1929BBB8BC49F78C2AD8880E /* MessagePackParser+Streaming.h */,
+				1929BD7CBC386519264507D9 /* MessagePackParser+Streaming.m */,
+				1929B15FCFF1229A98B9445D /* MessagePackParser.h */,
+				1929BE9F32589CB49210592E /* MessagePackParser.m */,
+				1929B8327FF98447B9DB6358 /* NSArray+MessagePack.h */,
+				1929B08BA2CCB64C2C764788 /* NSArray+MessagePack.m */,
+				1929B8090E67E1D6BB26D99E /* NSData+MessagePack.h */,
+				1929B8A12A97BF6E14AE270E /* NSData+MessagePack.m */,
+				1929B733F28E21BC718EFE46 /* NSDictionary+MessagePack.h */,
+				1929B4C1562844E3F66DD9E8 /* NSDictionary+MessagePack.m */,
 			);
-			path = "msgpack-objc";
+			name = "msgpack-objc";
+			sourceTree = "<group>";
+		};
+		1929BB1D868E5049492812B8 /* msgpack-c */ = {
+			isa = PBXGroup;
+			children = (
+				1929BC108326DA9BDA97D1E4 /* vrefbuffer.c */,
+				1929B88835A1EA87B0DFB5E3 /* objectc.c */,
+				1929BE353357767685B15A69 /* version.c */,
+				1929B5FFF5D8D93E3B886F93 /* zone.c */,
+				1929B0038B2DBF93FACD6C7F /* unpack.c */,
+			);
+			name = "msgpack-c";
 			sourceTree = "<group>";
 		};
 		4B2681FC1A99321D008E224E = {
@@ -154,7 +176,8 @@
 				4B26820F1A99321D008E224E /* Images.xcassets */,
 				4B2682111A99321D008E224E /* MainMenu.xib */,
 				4B2682081A99321D008E224E /* Supporting Files */,
-				1929B8494CBED6F0208CBBD7 /* msgpack-objc */,
+				1929B9D5ADA61B780755DDEA /* msgpack-objc */,
+				1929BB1D868E5049492812B8 /* msgpack-c */,
 			);
 			path = NVOX;
 			sourceTree = "<group>";
@@ -198,7 +221,6 @@
 		5F92E048DE6EAE46AE1454C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4B88EABF1AA0CBD100E316BC /* libmsgpack.a */,
 				ACE35C8E4A1798762BCD004B /* libPods.a */,
 			);
 			name = Frameworks;
@@ -341,13 +363,18 @@
 			files = (
 				4B26820E1A99321D008E224E /* main.m in Sources */,
 				4B26820C1A99321D008E224E /* AppDelegate.m in Sources */,
-				1929B244846CD5F71552B656 /* MessagePackParser+Streaming.m in Sources */,
-				1929BA3F4D23306D7BDC3D09 /* NSDictionary+MessagePack.m in Sources */,
-				1929BAC7519DCD0706C14321 /* NSData+MessagePack.m in Sources */,
-				1929BA8AB114B9CA2BDB6904 /* MessagePackPacker.m in Sources */,
-				1929BC408A398D678B098BD0 /* MessagePackParser.m in Sources */,
-				1929BD259EAAC4506055B138 /* NSArray+MessagePack.m in Sources */,
-				1929B30269EDAFAA124ADA3A /* MessagePackExtType.m in Sources */,
+				1929B0D44238ADC31A4F6F08 /* MessagePackExtType.m in Sources */,
+				1929B5A481441AB477010C56 /* MessagePackPacker.m in Sources */,
+				1929B3426A2957619C7B818D /* MessagePackParser+Streaming.m in Sources */,
+				1929BDB7046EAEF7625C7257 /* MessagePackParser.m in Sources */,
+				1929BB3B865DC7968340A9BF /* NSArray+MessagePack.m in Sources */,
+				1929BBC2F897C845AC0DDB21 /* NSData+MessagePack.m in Sources */,
+				1929BF03388541456DB52E76 /* NSDictionary+MessagePack.m in Sources */,
+				1929BBAF5BDF03ACEBB0456A /* vrefbuffer.c in Sources */,
+				1929B71A0AC6FFEDEF55E42D /* objectc.c in Sources */,
+				1929B8565755F5590774091E /* version.c in Sources */,
+				1929B7C24149EFEC07D8E889 /* zone.c in Sources */,
+				1929B2BB369A45F36D77ECC5 /* unpack.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,13 +383,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B26821F1A99321D008E224E /* NVOXTests.m in Sources */,
-				1929BA5712B87E39BFCCB031 /* MessagePackParser+Streaming.m in Sources */,
-				1929BD554049F0EAAF37B917 /* NSDictionary+MessagePack.m in Sources */,
-				1929BD22F6F1464E5DD6A267 /* NSData+MessagePack.m in Sources */,
-				1929B8097070AB688669693A /* MessagePackPacker.m in Sources */,
-				1929B3A37E7542DBAEE67E77 /* MessagePackParser.m in Sources */,
-				1929BA8C495E9911F8096BAF /* NSArray+MessagePack.m in Sources */,
-				1929BBD0225CAFCA026BA342 /* MessagePackExtType.m in Sources */,
+				1929BE429130E93BDAD66281 /* MessagePackExtType.m in Sources */,
+				1929BCC48E4C1979C4BDEDDC /* MessagePackPacker.m in Sources */,
+				1929BBE660C21BF51F54686E /* MessagePackParser+Streaming.m in Sources */,
+				1929BF77197AF7075BAC392E /* MessagePackParser.m in Sources */,
+				1929BA844CFFC1C820816220 /* NSArray+MessagePack.m in Sources */,
+				1929B4DD39B28A969D596019 /* NSData+MessagePack.m in Sources */,
+				1929BEDED28C490EE83110D9 /* NSDictionary+MessagePack.m in Sources */,
+				1929B828061FBDDD73D3AA37 /* vrefbuffer.c in Sources */,
+				1929B1271E3467ADF6123E03 /* objectc.c in Sources */,
+				1929B949E4A541855FC83D21 /* version.c in Sources */,
+				1929BF10154DB16C882C5680 /* zone.c in Sources */,
+				1929B0C82E11A5190AD8D2AE /* unpack.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
