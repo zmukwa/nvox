@@ -7,33 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1929B0C82E11A5190AD8D2AE /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929B0038B2DBF93FACD6C7F /* unpack.c */; };
-		1929B0D44238ADC31A4F6F08 /* MessagePackExtType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B6B44CC0DA3015A81666 /* MessagePackExtType.m */; };
-		1929B1271E3467ADF6123E03 /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929B88835A1EA87B0DFB5E3 /* objectc.c */; };
-		1929B2BB369A45F36D77ECC5 /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929B0038B2DBF93FACD6C7F /* unpack.c */; };
-		1929B3426A2957619C7B818D /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929BD7CBC386519264507D9 /* MessagePackParser+Streaming.m */; };
 		1929B4CC9248D40C4A2E35C8 /* NVBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B859B445EBD1E73CBE99 /* NVBuffer.m */; };
-		1929B4DD39B28A969D596019 /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B8A12A97BF6E14AE270E /* NSData+MessagePack.m */; };
-		1929B5A481441AB477010C56 /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B2A659C2F871E1612AFC /* MessagePackPacker.m */; };
-		1929B71A0AC6FFEDEF55E42D /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929B88835A1EA87B0DFB5E3 /* objectc.c */; };
-		1929B7C24149EFEC07D8E889 /* zone.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929B5FFF5D8D93E3B886F93 /* zone.c */; };
-		1929B828061FBDDD73D3AA37 /* vrefbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929BC108326DA9BDA97D1E4 /* vrefbuffer.c */; };
-		1929B8565755F5590774091E /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929BE353357767685B15A69 /* version.c */; };
-		1929B949E4A541855FC83D21 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929BE353357767685B15A69 /* version.c */; };
 		1929B96B73369E3222B26F69 /* NVBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B859B445EBD1E73CBE99 /* NVBuffer.m */; };
 		1929BA5D65772F13CC0A2DA5 /* vim_get_buffers.example.msgpack in Resources */ = {isa = PBXBuildFile; fileRef = 1929B0FB2EB67E4E70972061 /* vim_get_buffers.example.msgpack */; };
-		1929BA844CFFC1C820816220 /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B08BA2CCB64C2C764788 /* NSArray+MessagePack.m */; };
-		1929BB3B865DC7968340A9BF /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B08BA2CCB64C2C764788 /* NSArray+MessagePack.m */; };
-		1929BBAF5BDF03ACEBB0456A /* vrefbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929BC108326DA9BDA97D1E4 /* vrefbuffer.c */; };
-		1929BBC2F897C845AC0DDB21 /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B8A12A97BF6E14AE270E /* NSData+MessagePack.m */; };
-		1929BBE660C21BF51F54686E /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929BD7CBC386519264507D9 /* MessagePackParser+Streaming.m */; };
-		1929BCC48E4C1979C4BDEDDC /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B2A659C2F871E1612AFC /* MessagePackPacker.m */; };
-		1929BDB7046EAEF7625C7257 /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929BE9F32589CB49210592E /* MessagePackParser.m */; };
-		1929BE429130E93BDAD66281 /* MessagePackExtType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B6B44CC0DA3015A81666 /* MessagePackExtType.m */; };
-		1929BEDED28C490EE83110D9 /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B4C1562844E3F66DD9E8 /* NSDictionary+MessagePack.m */; };
-		1929BF03388541456DB52E76 /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B4C1562844E3F66DD9E8 /* NSDictionary+MessagePack.m */; };
-		1929BF10154DB16C882C5680 /* zone.c in Sources */ = {isa = PBXBuildFile; fileRef = 1929B5FFF5D8D93E3B886F93 /* zone.c */; };
-		1929BF77197AF7075BAC392E /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929BE9F32589CB49210592E /* MessagePackParser.m */; };
 		4B26820C1A99321D008E224E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B26820B1A99321D008E224E /* AppDelegate.m */; };
 		4B26820E1A99321D008E224E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B26820D1A99321D008E224E /* main.m */; };
 		4B2682101A99321D008E224E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B26820F1A99321D008E224E /* Images.xcassets */; };
@@ -53,29 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1929B0038B2DBF93FACD6C7F /* unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unpack.c; path = "msgpack-c/src/unpack.c"; sourceTree = SOURCE_ROOT; };
-		1929B08BA2CCB64C2C764788 /* NSArray+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MessagePack.m"; path = "msgpack-objectivec/NSArray+MessagePack.m"; sourceTree = SOURCE_ROOT; };
 		1929B0FB2EB67E4E70972061 /* vim_get_buffers.example.msgpack */ = {isa = PBXFileReference; lastKnownFileType = file.msgpack; name = vim_get_buffers.example.msgpack; path = Resources/vim_get_buffers.example.msgpack; sourceTree = "<group>"; };
-		1929B15FCFF1229A98B9445D /* MessagePackParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePackParser.h; path = "msgpack-objectivec/MessagePackParser.h"; sourceTree = SOURCE_ROOT; };
-		1929B2A659C2F871E1612AFC /* MessagePackPacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagePackPacker.m; path = "msgpack-objectivec/MessagePackPacker.m"; sourceTree = SOURCE_ROOT; };
-		1929B48DED6C0109A0684DD0 /* MessagePackExtType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePackExtType.h; path = "msgpack-objectivec/MessagePackExtType.h"; sourceTree = SOURCE_ROOT; };
-		1929B4C1562844E3F66DD9E8 /* NSDictionary+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MessagePack.m"; path = "msgpack-objectivec/NSDictionary+MessagePack.m"; sourceTree = SOURCE_ROOT; };
-		1929B5FFF5D8D93E3B886F93 /* zone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zone.c; path = "msgpack-c/src/zone.c"; sourceTree = SOURCE_ROOT; };
-		1929B6B44CC0DA3015A81666 /* MessagePackExtType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagePackExtType.m; path = "msgpack-objectivec/MessagePackExtType.m"; sourceTree = SOURCE_ROOT; };
-		1929B733F28E21BC718EFE46 /* NSDictionary+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MessagePack.h"; path = "msgpack-objectivec/NSDictionary+MessagePack.h"; sourceTree = SOURCE_ROOT; };
 		1929B7890E5E7FFD81B5A0AD /* NVBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVBuffer.h; sourceTree = "<group>"; };
-		1929B8090E67E1D6BB26D99E /* NSData+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+MessagePack.h"; path = "msgpack-objectivec/NSData+MessagePack.h"; sourceTree = SOURCE_ROOT; };
-		1929B8327FF98447B9DB6358 /* NSArray+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MessagePack.h"; path = "msgpack-objectivec/NSArray+MessagePack.h"; sourceTree = SOURCE_ROOT; };
 		1929B859B445EBD1E73CBE99 /* NVBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVBuffer.m; sourceTree = "<group>"; };
-		1929B88835A1EA87B0DFB5E3 /* objectc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = objectc.c; path = "msgpack-c/src/objectc.c"; sourceTree = SOURCE_ROOT; };
-		1929B8A12A97BF6E14AE270E /* NSData+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+MessagePack.m"; path = "msgpack-objectivec/NSData+MessagePack.m"; sourceTree = SOURCE_ROOT; };
-		1929BA47D6792C7F4F8BA052 /* MessagePackPacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePackPacker.h; path = "msgpack-objectivec/MessagePackPacker.h"; sourceTree = SOURCE_ROOT; };
-		1929BBB8BC49F78C2AD8880E /* MessagePackParser+Streaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MessagePackParser+Streaming.h"; path = "msgpack-objectivec/MessagePackParser+Streaming.h"; sourceTree = SOURCE_ROOT; };
-		1929BC108326DA9BDA97D1E4 /* vrefbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vrefbuffer.c; path = "msgpack-c/src/vrefbuffer.c"; sourceTree = SOURCE_ROOT; };
-		1929BD7CBC386519264507D9 /* MessagePackParser+Streaming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MessagePackParser+Streaming.m"; path = "msgpack-objectivec/MessagePackParser+Streaming.m"; sourceTree = SOURCE_ROOT; };
-		1929BD8D854BB8256C3599FE /* MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePack.h; path = "msgpack-objectivec/MessagePack.h"; sourceTree = SOURCE_ROOT; };
-		1929BE353357767685B15A69 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = version.c; path = "msgpack-c/src/version.c"; sourceTree = SOURCE_ROOT; };
-		1929BE9F32589CB49210592E /* MessagePackParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagePackParser.m; path = "msgpack-objectivec/MessagePackParser.m"; sourceTree = SOURCE_ROOT; };
 		4B2682051A99321D008E224E /* NVOX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NVOX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2682091A99321D008E224E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B26820A1A99321D008E224E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,40 +83,6 @@
 			path = "neovim-objc";
 			sourceTree = "<group>";
 		};
-		1929B9D5ADA61B780755DDEA /* msgpack-objc */ = {
-			isa = PBXGroup;
-			children = (
-				1929BD8D854BB8256C3599FE /* MessagePack.h */,
-				1929B48DED6C0109A0684DD0 /* MessagePackExtType.h */,
-				1929B6B44CC0DA3015A81666 /* MessagePackExtType.m */,
-				1929BA47D6792C7F4F8BA052 /* MessagePackPacker.h */,
-				1929B2A659C2F871E1612AFC /* MessagePackPacker.m */,
-				1929BBB8BC49F78C2AD8880E /* MessagePackParser+Streaming.h */,
-				1929BD7CBC386519264507D9 /* MessagePackParser+Streaming.m */,
-				1929B15FCFF1229A98B9445D /* MessagePackParser.h */,
-				1929BE9F32589CB49210592E /* MessagePackParser.m */,
-				1929B8327FF98447B9DB6358 /* NSArray+MessagePack.h */,
-				1929B08BA2CCB64C2C764788 /* NSArray+MessagePack.m */,
-				1929B8090E67E1D6BB26D99E /* NSData+MessagePack.h */,
-				1929B8A12A97BF6E14AE270E /* NSData+MessagePack.m */,
-				1929B733F28E21BC718EFE46 /* NSDictionary+MessagePack.h */,
-				1929B4C1562844E3F66DD9E8 /* NSDictionary+MessagePack.m */,
-			);
-			name = "msgpack-objc";
-			sourceTree = "<group>";
-		};
-		1929BB1D868E5049492812B8 /* msgpack-c */ = {
-			isa = PBXGroup;
-			children = (
-				1929BC108326DA9BDA97D1E4 /* vrefbuffer.c */,
-				1929B88835A1EA87B0DFB5E3 /* objectc.c */,
-				1929BE353357767685B15A69 /* version.c */,
-				1929B5FFF5D8D93E3B886F93 /* zone.c */,
-				1929B0038B2DBF93FACD6C7F /* unpack.c */,
-			);
-			name = "msgpack-c";
-			sourceTree = "<group>";
-		};
 		4B2681FC1A99321D008E224E = {
 			isa = PBXGroup;
 			children = (
@@ -189,8 +111,6 @@
 				4B26820F1A99321D008E224E /* Images.xcassets */,
 				4B2682111A99321D008E224E /* MainMenu.xib */,
 				4B2682081A99321D008E224E /* Supporting Files */,
-				1929B9D5ADA61B780755DDEA /* msgpack-objc */,
-				1929BB1D868E5049492812B8 /* msgpack-c */,
 				1929B3BEE3B8C7B004064578 /* neovim-objc */,
 			);
 			path = NVOX;
@@ -377,18 +297,6 @@
 			files = (
 				4B26820E1A99321D008E224E /* main.m in Sources */,
 				4B26820C1A99321D008E224E /* AppDelegate.m in Sources */,
-				1929B0D44238ADC31A4F6F08 /* MessagePackExtType.m in Sources */,
-				1929B5A481441AB477010C56 /* MessagePackPacker.m in Sources */,
-				1929B3426A2957619C7B818D /* MessagePackParser+Streaming.m in Sources */,
-				1929BDB7046EAEF7625C7257 /* MessagePackParser.m in Sources */,
-				1929BB3B865DC7968340A9BF /* NSArray+MessagePack.m in Sources */,
-				1929BBC2F897C845AC0DDB21 /* NSData+MessagePack.m in Sources */,
-				1929BF03388541456DB52E76 /* NSDictionary+MessagePack.m in Sources */,
-				1929BBAF5BDF03ACEBB0456A /* vrefbuffer.c in Sources */,
-				1929B71A0AC6FFEDEF55E42D /* objectc.c in Sources */,
-				1929B8565755F5590774091E /* version.c in Sources */,
-				1929B7C24149EFEC07D8E889 /* zone.c in Sources */,
-				1929B2BB369A45F36D77ECC5 /* unpack.c in Sources */,
 				1929B96B73369E3222B26F69 /* NVBuffer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,18 +306,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B26821F1A99321D008E224E /* NVOXTests.m in Sources */,
-				1929BE429130E93BDAD66281 /* MessagePackExtType.m in Sources */,
-				1929BCC48E4C1979C4BDEDDC /* MessagePackPacker.m in Sources */,
-				1929BBE660C21BF51F54686E /* MessagePackParser+Streaming.m in Sources */,
-				1929BF77197AF7075BAC392E /* MessagePackParser.m in Sources */,
-				1929BA844CFFC1C820816220 /* NSArray+MessagePack.m in Sources */,
-				1929B4DD39B28A969D596019 /* NSData+MessagePack.m in Sources */,
-				1929BEDED28C490EE83110D9 /* NSDictionary+MessagePack.m in Sources */,
-				1929B828061FBDDD73D3AA37 /* vrefbuffer.c in Sources */,
-				1929B1271E3467ADF6123E03 /* objectc.c in Sources */,
-				1929B949E4A541855FC83D21 /* version.c in Sources */,
-				1929BF10154DB16C882C5680 /* zone.c in Sources */,
-				1929B0C82E11A5190AD8D2AE /* unpack.c in Sources */,
 				1929B4CC9248D40C4A2E35C8 /* NVBuffer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
